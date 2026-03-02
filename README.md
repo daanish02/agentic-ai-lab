@@ -61,21 +61,21 @@ This assumes ML and LLM familiarity, and progresses toward advanced agent archit
 
 This repository is organized to **mirror the progression of building agentic AI systems** and to **support efficient navigation**:
 
-```
+```bash
 agentic-ai-lab/
-├── overview/                      # Agency fundamentals and agent philosophy
-├── fundamentals/                  # Practical building blocks and core techniques
-├── agent-architectures/           # ReAct, Plan-and-Execute, reflection patterns
-├── tool-use/                      # Function calling, API integration, tool chaining
-├── planning-and-reasoning/        # Multi-step planning, chain-of-thought, tree search
-├── memory-systems/                # Short-term, long-term, episodic, semantic memory
-├── model-context-protocol/        # MCP fundamentals, servers, clients, standardization
-├── orchestration-patterns/        # Workflow graphs, state management, control flow
-├── multi-agent-systems/           # Agent communication, coordination, collaboration
-├── evaluation/                    # Agent performance metrics and benchmarking
-├── experiments/                   # Hands-on agent implementations and prototypes
-├── notes/                         # Personal insights and architectural reflections
-└── references/                    # Papers, documentation, and curated resources
+├── overview/                # Agency fundamentals and agent philosophy
+├── fundamentals/            # Practical building blocks and core techniques
+├── agent-architectures/     # ReAct, Plan-and-Execute, reflection patterns
+├── tool-use/                # Function calling, API integration, tool chaining
+├── planning-and-reasoning/  # Multi-step planning, chain-of-thought, tree search
+├── memory-systems/          # Short-term, long-term, episodic, semantic memory
+├── model-context-protocol/  # MCP fundamentals, servers, clients, standardization
+├── orchestration-patterns/  # Workflow graphs, state management, control flow
+├── multi-agent-systems/     # Agent communication, coordination, collaboration
+├── evaluation/              # Agent performance metrics and benchmarking
+├── experiments/             # Experiments related to Agentic AI
+├── notes/                   # Personal learnings
+└── resources.md             # Resources for Agentic AI
 ```
 
 ## Table of Contents
@@ -190,25 +190,11 @@ agentic-ai-lab/
 
 ## Learning Principles
 
-### Agents are More Than Prompts
-
-Agents involve planning, memory, tool use, and iteration. They are systems, not single model calls.
-
-### Reliability is the Challenge
-
-Agents can fail in many ways: hallucination, tool misuse, infinite loops, poor planning. Design for robustness.
-
-### Observability is Essential
-
-Agents are opaque. Build logging, tracing, and observability into agent systems to understand behavior.
-
-### MCP Enables Composability
-
-The Model Context Protocol standardizes agent-tool interaction, enabling ecosystem-wide tool sharing and reuse.
-
-### Evaluation is Non-Trivial
-
-Measuring agent performance requires task-specific metrics and often human evaluation. Automated metrics are insufficient.
+- **Agents are More Than Prompts:** Agents involve planning, memory, tool use, and iteration. They are systems, not single model calls.
+- **Reliability is the Challenge:** Agents can fail in many ways: hallucination, tool misuse, infinite loops, poor planning. Design for robustness.
+- **Observability is Essential:** Agents are opaque. Build logging, tracing, and observability into agent systems to understand behavior.
+- **MCP Enables Composability:** The Model Context Protocol standardizes agent-tool interaction, enabling ecosystem-wide tool sharing and reuse.
+- **Evaluation is Non-Trivial:** Measuring agent performance requires task-specific metrics and often human evaluation. Automated metrics are insufficient.
 
 ## Contribution to Your Growth
 
